@@ -1,0 +1,67 @@
+# Credentials & Sensitive Data
+*.pem
+*.key
+*.pfx
+*.p12
+.env
+.env.local
+credentials.txt
+passwords.txt
+api_keys.txt
+secrets.yaml
+
+# AWS & Cloud
+aws_credentials
+.aws/
+.terraform/
+
+# Logs
+*.log
+logs/
+
+# Temp Files
+*.tmp
+*.temp
+*.backup
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+
+# Node (if using Node.js tools)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Screenshots (too large, use descriptions instead)
+screenshots/large/
+
+# Elasticsearch/Kibana backups
+*.snapshot
+backups/
+
+# Configuration with sensitive data
+config/local-*
+config/*-local.yml
+
+# Test results
+test-results/
+coverage/
+
+# Cache
+.cache/
+*.cache
